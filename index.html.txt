@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-web saytim</title>
+</head>
+<body>
+      <!-- BIO BO'LIMI BOSHLANISHI -->
+<div class="bio-container">
+    <div class="bio-card">
+        <!-- Profil rasmi uchun joy -->
+        <div class="profile-frame">
+            <img src="Без названия.jfif" alt="Profil rasmi">
+        </div>
+
+        <!-- Ism va Nikneym -->
+        <h1 class="name">Omonxon</h1>
+        <p class="username">@OMONXON</p>
+
+        <!-- Kasbi/Sohasi -->
+        <div class="badge-container">
+            <span class="badge">Developer</span>
+            <span class="badge">Creator</span>
+            <span class="badge">Blogger</span>
+        </div>
+
+        <!-- Bio matni -->
+        <div class="description">
+            <p>Salom! Mening dunyomga xush kelibsiz. Men texnologiyalar, dasturlash va kreativ loyihalar yaratishga qiziqaman. Bu yerda siz mening ijodim va ijtimoiy hayotimni kuzatib borishingiz mumkin.</p>
+        </div>
+
+        <!-- Statistika (Ixtiyoriy) -->
+        <div class="stats">
+            <div class="stat-item">
+                <strong>100k+</strong>
+                <span>Loyihalar</span>
+            </div>
+            <div class="stat-item">
+                <strong>2.3 MLN</strong>
+                <span>Obunachilar</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* BIO DIZAYNI (CSS) */
+.bio-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bio-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 30px;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    border: 1px solid #f0f0f0;
+}
+
+.profile-frame {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); /* Instagram gradient */
+}
+
+.profile-frame img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+.name {
+    font-size: 28px;
+    color: #222;
+    margin: 0;
+}
+
+.username {
+    color: #24A1DE; /* Telegram ko'k rangi */
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.badge-container {
+    margin: 15px 0;
+}
+
+.badge {
+    background: #f0f2f5;
+    color: #555;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 3px;
+    text-transform: uppercase;
+}
+
+.description {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 20px 0;
+    padding: 0 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.stat-item strong {
+    display: block;
+    font-size: 18px;
+    color: #333;
+}
+
+.stat-item span {
+    font-size: 13px;
+    color: #888;
+}
+</style>
+<!-- BIO BO'LIMI TUGADI -->
+    <p>✨ Assalomu alaykum va xush kelibsiz!
+Biz mijozlarimizga sifatli, ishonchli va zamonaviy xizmatlarni taqdim etamiz. Har bir ishni puxta rejalashtirib, natijaga yo‘naltirilgan holda amalga oshiramiz. Biz uchun eng muhim jihat — mijozlar ishonchi va qoniqishi.
+Jamoamiz tajribali va mas’uliyatli bo‘lib, har bir mijozga individual yondashadi. Biz bilan hamkorlik qilish orqali siz vaqtingizni tejaysiz va kafolatlangan natijaga ega bo‘lasiz.
+📌 Sifat 📌 Halollik📌 Mas’uliyat
+📞 Savollaringiz bo‘lsa yoki hamkorlikni boshlamoqchi bo‘lsangiz, bemalol bog‘laning. Biz sizni mamnun qilishdan doim xursandmiz!</p>
+    
+        
+    <a href="https://t.me" class="button-link" target="_blank">Telegramga o'tish</a>
+
+<style>
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #24A1DE; /* Telegram ko'k rangi */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.button-link:hover {
+    background-color: #1d86ba; /* Sichqoncha ustiga kelganda rang sal to'qlashadi */
+}
+</style>
+    <a href="https://youtube.com" class="youtube-button" target="_blank">YouTube kanalim</a>
+
+<style>
+.youtube-button {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #FF0000; /* YouTube qizil rangi */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.3s; /* Silliq o'tish effekti */
+}
+
+.youtube-button:hover {
+    background-color: #CC0000; /* Sichqoncha kelganda biroz to'qlashadi */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+</style>
+    <a href="https://instagram.com" class="instagram-button" target="_blank">Instagram profilim</a>
+
+<style>
+.instagram-button {
+    display: inline-block;
+    padding: 10px 25px;
+    /* Instagramning chiroyli gradient rangi */
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.instagram-button:hover {
+    transform: scale(1.05); /* Sichqoncha kelganda biroz kattalashadi */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+</style>
+    <a href="https://tiktok.com" class="tiktok-button" target="_blank">TikTok</a>
+
+<style>
+.tiktok-button {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #000000; /* TikTok asosiy qora rangi */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-left: 3px solid #ff0050; /* TikTok pushti rangi */
+    border-right: 3px solid #00f2ea; /* TikTok havo rang rangi */
+    transition: 0.3s;
+}
+
+.tiktok-button:hover {
+    box-shadow: 0px 0px 15px rgba(255, 0, 80, 0.5), 0px 0px 15px rgba(0, 242, 234, 0.5);
+    transform: scale(1.05);
+}
+</style>
+
+  
+</body>
+</html>
